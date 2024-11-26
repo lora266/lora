@@ -1,8 +1,12 @@
-
-document.getElementById('twitter-button').addEventListener('click', () => {
-  alert('Twitter button clicked!');
+// "Buy Now" Butonu İşlevi
+document.querySelector(".buy-btn").addEventListener("click", () => {
+  window.location.href = "xxx"; // Geçici link
 });
 
-document.getElementById('buy-button').addEventListener('click', () => {
-  alert('Buy button clicked!');
+// "Share on X" Butonu İşlevi
+document.querySelector(".share-btn").addEventListener("click", () => {
+  window.open(
+    "https://twitter.com/intent/tweet?text=Check+out+Loraseason!&url=https://x.com/lorasolanaa",
+    "_blank"
+  );
 });
